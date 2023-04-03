@@ -1,0 +1,30 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .12), 0px 1px 1px rgba(0, 0, 0, .14), 0px 2px 1px rgba(0, 0, 0, .2);
+
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.true {
+ background-color: green;
+}
+
+.avatar {
+    display: block;
+    height: auto;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
